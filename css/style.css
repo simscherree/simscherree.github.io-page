@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Pragati+Narrow');
+
+html,body {
+  background-color: white;
+  font-family: 'Pragati Narrow', sans-serif;
+  min-width: 290px;
+  line-height: 2;
+}
+
+code {
+  line-height: 3;
+  display: block;
+  background-color: darkcyan;
+  color: white;
+  word-break: normal;
+  word-wrap: noraml;
+  padding: 15px;
+  margin: 10px;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid white;
+  
+}
+
+header {
+  color: black;
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+
+#main-doc header{
+  text-align: left;
+  margin: 0px;
+}
+
+#navbar ul {
+  height: 90%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  border: 1px solid;
+  border-bottom-width: 0px;
+  padding: 8px;
+  padding-left: 45px;
+  list-style: none;
+  position: relative;
+  left: -50px;
+  width: 100%;
+  background-color: yellow;
+  color: black;
+}
+
+#navbar a {
+  text-decoration: none;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+section article{
+  margin: 15px;
+}
+
+section li{
+  margin: 15px 0px 0px 20px;
+}
+
+@media only screen and (max-device-width: 400px)
+{
+  #main-doc {
+    margin-left: -10px;
+  }
+  
+  code{
+    font-size: .75em;
+    margin-left: -20px;
+    max-width: 100%;
+    padding: 15px 45px 15px 10px;
+    min-width: 223px;
+  }
+  footer {
+    padding: 3px;
+   }
+  
+  }
